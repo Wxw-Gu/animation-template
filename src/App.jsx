@@ -39,10 +39,6 @@ function App() {
       showStyle();
     });
   };
-  console.log("🚀 ~ file: App.jsx:41 ~ start ~ n:", n);
-  console.log("🚀 ~ file: App.jsx:41 ~ start ~ n:", n);
-  console.log("🚀 ~ file: App.jsx:41 ~ start ~ n:", n);
-  console.log("🚀 ~ file: App.jsx:41 ~ start ~ n:", n);
 
   return (
     <>
