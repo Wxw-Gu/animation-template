@@ -42,6 +42,7 @@ function App() {
 
   return (
     <>
+      <div id="ghost" />
       <StyleEditor />
       <style>{style.current}</style>
     </>

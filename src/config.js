@@ -19,13 +19,13 @@ export const styleContent = [
   }
   /* 文字直接显示在页面上，没有任何装饰，真的人反人类呢！所以我们来给文字加点装饰吧~~ */
   .styleEditor {
-    position: fixed; left: 0; top: 0;
+    position: fixed; left: 0; top: 100px;
     background-color: #303030;
     padding: .5em;
     border: 1px solid;
     margin: .5em;
     overflow: auto;
-    width: 45vw; height: 90vh;
+    width: 45vw; height: 80vh;
   }
   /* 作为一个程序员，我们不可以太沉闷哦~~，给自己的代码加一点色彩吧 */
   .token.comment{ color: #857F6B; font-style: italic; }
@@ -40,7 +40,7 @@ export const styleContent = [
             perspective: 1000px;
   }
   .styleEditor {
-    position: fixed; left: 0; top: 0; 
+    position: fixed; left: 0; top: 100px; 
     -webkit-transition: none; 
     transition: none;
     -webkit-transform: rotateY(10deg) translateZ(-100px) ;
